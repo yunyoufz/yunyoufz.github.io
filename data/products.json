@@ -1,0 +1,154 @@
+{
+  "products": [
+    {
+      "title": "衣帽柜",
+      "description": "现代简约系列",
+      "link": "img/products/chanqin1.jpg"
+    },
+    {
+      "title": "现代简约",
+      "description": "玩色系列",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "现代简约",
+      "description": "优格系列",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "现代简约",
+      "description": "优格系列-A",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "现代简约",
+      "description": "温情系列",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "A1201",
+      "description": "美式风",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "A1201Q",
+      "description": "韩式田园",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "A1500SQ",
+      "description": "2017新实用风格卧房",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "中式风",
+      "description": "中国韵系列衣柜",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "简约主义",
+      "description": "书房",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "中式风",
+      "description": "中国韵系列卧室",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "2017现代简约",
+      "description": "榻榻米",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "苏格兰田园",
+      "description": "榻榻米",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "AZ1007",
+      "description": "整体房",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "AZ10025s",
+      "description": "整体房",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "APGM6L349AP",
+      "description": "简欧浴室柜",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "APGM6L348AP",
+      "description": "简欧浴室柜",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "APGM6L391AP",
+      "description": "简欧浴室柜",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "AM7702",
+      "description": "地拖盆",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "AM7703",
+      "description": "地拖盆",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "AM7704",
+      "description": "地拖盆",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "AB1271",
+      "description": "连体坐便器",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "AB1272",
+      "description": "连体坐便器",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "AB1273",
+      "description": "波艾系列.儿童房",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "A1178C",
+      "description": "现代简约 风尚系列 衣帽间",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "A1566TC",
+      "description": "现代简约 风尚系列 玄关柜",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "A81106C",
+      "description": "现代简约 风尚系列 玄关柜",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "A81119J",
+      "description": "苏格兰田园 阳台柜",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "A91145Q",
+      "description": "现代简约 风尚系列 阳台柜",
+      "link": "img/products/chanqin2.jpg"
+    },
+    {
+      "title": "A91145TN",
+      "description": "苏格兰田园 阳台柜",
+      "link": "img/products/chanqin2.jpg"
+    }
+  ]
+}
