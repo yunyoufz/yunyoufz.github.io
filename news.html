@@ -24,31 +24,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<header>
-
-    <nav class="navbar" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-
-                <a href="index.html"><img class="logo" src="img/home/logo.png" alt="">
-                    <h1>绍兴柯桥运优纺织有限公司</h1>
-                </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">首页</a></li>
-                    <li><a href="profuile.html">公司介绍</a></li>
-                    <li><a href="products.html">产品展示</a></li>
-                    <li><a class="active" href="news.html">新闻动态</a></li>
-                    <li><a href="join.html">品牌招商</a></li>
-                    <li><a href="about.html">联系我们</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-</header>
+<header id="header-container"></header>
 <div class="newsye">
     <div class="container">
         <div class="row">
@@ -172,34 +148,11 @@
 
 
 
-<footer>
-    <!--footer-->
-
-    <!--备案号-->
-    <div class="footer-button">
-        <div class="container">
-            <p>服务热线：400-080-7177 传真：(+86 731)89783687 在线QQ：123456789</p>
-            <p>增值电信业务经营许可证：湘B2-20100052 柯桥运优木业滁州有限公司 | 粤ICP备15045692号 | 售后服务热线: 400-800-9696</p>
-            <!--百度分享-->
-            <div class="bdsharebuttonbox">
-                <a href="#" class="bds_more" data-cmd="more"></a>
-                <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
-                <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a
-                    href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
-                <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
-                <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-            </div>
-        </div>
-    </div>
-</footer>
+<footer id="footer-container"></footer>
 <!--回到顶部-->
 <!--在线客服-->
 <!--qq聊天代码部分begin-->
-<div class="izl-rmenu">
-    <a class="consult" target="_blank"><div class="phone" style="display:none;">0592-1234567</div></a>
-    <a class="cart"><div class="pic"></div></a>
-    <a href="javascript:void(0)" class="btn_top" style="display: block;"></a>
-</div>
+<div id="weichart-container"></div>
 <!-- <a target="_blank"  href="http://wpa.qq.com/msgrd?v=3&uin=123456&site=qq&menu=yes" id="udesk-feedback-tab" class="udesk-feedback-tab-left" style="display: block; background-color: black;"></a> -->
 <!--qq聊天代码部分end-->
 
@@ -211,6 +164,13 @@
 <script src="plug/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
 <!--自己写的js-->
 <script src="js/main.js"></script>
+<script>
+    $(function() {
+        $("#header-container").load("common/header.html");
+        $("#footer-container").load("common/footer.html");
+        $("#weichart-container").load("common/weichart.html");
+    });
+</script>
 </body>
 
 

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta charset="utf-8">
     <title>绍兴柯桥运优纺织有限公司-关于</title>
-    <<link rel="shortcut icon" href="img/home/favicon.ico" type="images/x-5b">
+    <link rel="shortcut icon" href="img/home/favicon.ico" type="images/x-5b">
     <!--<title>Document</title> 关键字增加所搜性-->
     <meta name="description" content="">
     <!--移动端<meta name="keywords" content="">-->
@@ -23,41 +23,27 @@
     <link rel="stylesheet" href="plug/Font-Awesome-4.7.0/css/font-awesome.min.css">
     <!--自己的css-->
     <link rel="stylesheet" href="css/main.css">
+    <!-- 自定义模态框动画样式 -->
+    <style>
+        .modal.fade .modal-dialog {
+            width: 660px;
+            transform: scale(0.7);
+            transition: transform 0.3s ease-out;
+        }
+        
+        .modal.in .modal-dialog {
+            transform: scale(1);
+        }
+        
+        .modal-backdrop.in {
+            opacity: 0.5;
+        }
+    </style>
 </head>
 
 <body>
     <!--header头部-->
-    <header>
-
-        <nav class="navbar" role="navigation">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="index.html"><img class="logo" src="img/home/logo.png" alt="">
-                        <h1>绍兴柯桥运优纺织有限公司</h1>
-                    </a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">首页</a></li>
-                        <li><a href="profuile.html">公司介绍</a></li>
-                        <li><a class="active" href="products.html">产品展示</a></li>
-                        <li><a href="news.html">新闻动态</a></li>
-                        <li><a href="join.html">品牌招商</a></li>
-                        <li><a href="about.html">联系我们</a></li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
-    </header>
+    <header id="header-container"></header>
     <div class="products-yemian">
         <div class="container">
             <div class="row">
@@ -65,39 +51,38 @@
                     <h3>产品列表</h3>
                     <ul class="tarr">
                         <li class="products-leli"><a class="Js-prod-a1">按材质分类</a></li>
-                        <li><a onclick="showProducts('products')">棉质布料</a></li>
-                        <li><a>亚麻系列</a></li>
-                        <li><a href="">涤纶功能性面料</a></li>
-                        <li><a href="">尼龙科技布</a></li>
+                        <li><a onclick="showProducts('mianzhi')">棉质布料</a></li>
+                        <li><a onclick="showProducts('yama')">亚麻系列</a></li>
+                        <li><a onclick="showProducts('dilun')">涤纶功能性面料</a></li>
+                        <li><a onclick="showProducts('nilong')">尼龙科技布</a></li>
                     </ul>
                     <ul>
                         <li class="products-leli"><a href="#" class="Js-prod-a1">按应用场景分类</a></li>
-                        <li><a href="">女装流行面料</a></li>
-                        <li><a href="">职业装专用面料</a></li>
-                        <li><a href="">窗帘系列</a></li>
-                        <li><a href="">沙发布艺</a></li>
+                        <li><a onclick="showProducts('nvzhuang')">女装流行面料</a></li>
+                        <li><a onclick="showProducts('zhiye')">职业装专用面料</a></li>
+                        <li><a onclick="showProducts('chuanglian')">窗帘系列</a></li>
+                        <li><a onclick="showProducts('shafa')">沙发布艺</a></li>
                     </ul>
                     <ul>
                         <li class="products-leli"><a href="#" class="Js-prod-a1">特色产品专区</a></li>
-                        <li><a href="">可持续环保系列</a></li>
-                        <li><a href="">功能性特种面料</a></li>
+                        <li><a onclick="showProducts('huanbao')">可持续环保系列</a></li>
+                        <li><a onclick="showProducts('gongneng')">功能性特种面料</a></li>
                     </ul>
-
                 </div>
                 <div class="col-md-9">
                     <!--箭牌卫浴-->
                     <div class="row">
                         <div id="product-template" style="display: none;">
-                            <div class="col-md-4 col-sm-4">
-                                <a href="" class="products-border"><img src="{{link}}" alt=""></a>
-                                <strong>{{title}}</strong>
-                                <p>{{description}}</p>
-                                <p>
+                            <div class="col-md-4 col-sm-4" style="display: flex; flex-direction: column;align-items: center;padding-bottom: 10px;;">
+                                <a href="javascript:void(0)" class="products-border"><img src="{{link}}" alt="{{title}}"></a>
+                                <div style="font-weight: 600;">{{title}}</div>
+                                <div>{{description}}</div>
+                                <!-- <div>
                                     <a href="{{link}}" class="products-aniu">了解更多 <i class="fa fa-angle-right"></i></a>
-                                </p>
+                                </div> -->
                             </div>
                         </div>
-                        <div id="product-container"></div>
+                        <div id="product-container" ></div>
                     </div>
                 </div>
             </div>
@@ -105,54 +90,28 @@
     </div>
 
 
-    <footer>
-        <!--footer-->
-        <div class="footer-top link">
-            <!--友情链接-->
-            <div class="container">
-                友情链接：
-                <a href="http://www.jomoo.com.cn/">柯桥运优英文网</a>
-                <a href="http://www.jieju.cn/">智能家居</a>
-                <a href="http://www.chinaweiyu.com/">中华橱柜网</a>
-                <a href="http://www.wyw.cn/">中厨网</a>
-                <a href="http://www.wyw.cn/">优信二手车</a>
-                <a href="http://www.wyw.cn/">落阳地产</a>
-                <a href="http://www.hegii.com/">汽车之家</a>
-                <a href="https://shop68294732.taobao.com/?spm=a230r.7195193.1997079397.204.cYt8e7">柯桥运优天猫商城</a>
-            </div>
-        </div>
-        <!--备案号-->
-        <div class="footer-button">
-            <div class="container">
-                <p>服务热线：400-080-7177 传真：(+86 731)89783687 在线QQ：123456789</p>
-                <p>增值电信业务经营许可证：湘B2-20100052 柯桥运优木业滁州有限公司 | 粤ICP备15045692号 | 售后服务热线: 400-800-9696</p>
-                <!--百度分享-->
-                <div class="bdsharebuttonbox">
-                    <a href="#" class="bds_more" data-cmd="more"></a>
-                    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
-                    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq"
-                        data-cmd="tqq" title="分享到腾讯微博"></a>
-                    <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
-                    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <footer id="footer-container"></footer>
     <!--回到顶部-->
     <!--在线客服-->
     <!--qq聊天代码部分begin-->
-    <div class="izl-rmenu">
-        <a class="consult" target="_blank">
-            <div class="phone" style="display:none;">0592-1234567</div>
-        </a>
-        <a class="cart">
-            <div class="pic"></div>
-        </a>
-        <a href="javascript:void(0)" class="btn_top" style="display: block;"></a>
-    </div>
+    <div id="weichart-container"></div>
     <!-- <a target="_blank"  href="http://wpa.qq.com/msgrd?v=3&uin=123456&site=qq&menu=yes" id="udesk-feedback-tab" class="udesk-feedback-tab-left" style="display: block; background-color: black;"></a> -->
     <!--qq聊天代码部分end-->
 
+    <!-- 图片查看模态框 -->
+    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="imageModalLabel">图片预览</h4>
+                </div>
+                <div class="modal-body">
+                    <img id="modalImage" src="" alt="" class="img-responsive center-block">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
     <script src="js/jquery-1.11.1.js"></script>
@@ -163,25 +122,44 @@
     <script src="js/main.js"></script>
     <script type="text/javascript">
         // 加载产品数据并渲染模板
-            function showProducts(product){
+            function showProducts(productKey){
                 const template = document.getElementById('product-template').innerHTML;
                 const container = document.getElementById('product-container');
                 container.innerHTML = "";
-                fetch("data/" +product +".json")
+                fetch("data/products.json")
                     .then(response => response.json())
                     .then(data => {
-                        data.products.forEach(product => {
-                            const rendered = template.replace(/{{title}}/g, product.title)
-                                .replace(/{{description}}/g, product.description)
-                                .replace(/{{link}}/g, product.link);
+                        const products = data[productKey] || [];
+                        products.forEach(item => {
+                            const rendered = template.replace(/{{title}}/g, item.title)
+                                .replace(/{{description}}/g, item.description)
+                                .replace(/{{link}}/g, item.link);
                             container.innerHTML += rendered;
+                        });
+                        
+                        // 为每个产品图片添加点击事件监听器
+                        $('.products-border').on('click', function(e) {
+                            e.preventDefault();
+                            const imgSrc = $(this).find('img').attr('src');
+                            const imgAlt = $(this).find('img').attr('alt');
+                            $('#modalImage').attr('src', imgSrc);
+                            $('#modalImage').attr('alt', imgAlt);
+                            $('#imageModalLabel').text(imgAlt || '图片预览');
+                            $('#imageModal').modal('show');
                         });
                     })
                     .catch(error => console.error('Error loading products:', error));
             };
 
-            showProducts('products'); 
+            showProducts('mianzhi');
     </script>
+<script>
+    $(function() {
+        $("#header-container").load("common/header.html");
+        $("#footer-container").load("common/footer.html");
+        $("#weichart-container").load("common/weichart.html");
+    });
+</script>
 </body>
 
 </html>

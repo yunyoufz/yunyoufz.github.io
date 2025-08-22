@@ -1,154 +1,222 @@
 {
-  "products": [
+  "mianzhi": [
     {
-      "title": "衣帽柜",
-      "description": "现代简约系列",
-      "link": "img/products/chanqin1.jpg"
+      "title": "天然质地",
+      "description": "精选优质棉纤维，天然环保，透气亲肤，适合制作高品质日常服饰",
+      "link": "img/products/mianzhi/1.jpg"
     },
     {
       "title": "现代简约",
-      "description": "玩色系列",
-      "link": "img/products/chanqin2.jpg"
+      "description": "简约设计风格，色泽纯净，质地柔软，适合现代都市生活方式",
+      "link": "img/products/mianzhi/2.jpg"
+    },
+    {
+      "title": "亲肤系列",
+      "description": "特殊工艺处理，表面光滑细腻，贴身穿着舒适无刺激，呵护敏感肌肤",
+      "link": "img/products/mianzhi/3.jpg"
+    },
+    {
+      "title": "时尚印花",
+      "description": "创新印花技术，图案时尚新颖，色彩持久鲜艳，引领潮流趋势",
+      "link": "img/products/mianzhi/4.jpg"
+    }
+  ],
+  "yama": [
+    {
+      "title": "天然原麻",
+      "description": "100%纯亚麻材质，天然纹理清晰，透气性极佳，具有天然抗菌特性",
+      "link": "img/products/yama/1.jpg"
+    },
+    {
+      "title": "简约素色",
+      "description": "简约素雅设计，色彩自然柔和，营造宁静舒适的居家氛围",
+      "link": "img/products/yama/2.jpg"
+    },
+    {
+      "title": "亲肤细腻",
+      "description": "精细打磨工艺，触感柔软顺滑，减少粗糙感，提升穿着舒适度",
+      "link": "img/products/yama/3.jpg"
+    },
+    {
+      "title": "时尚混纺",
+      "description": "亚麻棉混纺技术，兼具亚麻透气性与棉质柔软度，时尚实用兼备",
+      "link": "img/products/yama/4.jpg"
+    }
+  ],
+  "dilun": [
+    {
+      "title": "防水透气",
+      "description": "高科技防水涂层，同时保持优良透气性，适合户外运动及恶劣天气穿着",
+      "link": "img/products/dilun/1.jpg"
+    },
+    {
+      "title": "快干凉爽",
+      "description": "特殊纤维结构，快速导湿排汗，保持肌肤干爽，提升运动舒适体验",
+      "link": "img/products/dilun/2.jpg"
+    },
+    {
+      "title": "抗皱耐磨",
+      "description": "高强度涤纶纤维，抗皱性能卓越，经久耐用，适合商务差旅需求",
+      "link": "img/products/dilun/3.jpg"
+    },
+    {
+      "title": "防紫外线",
+      "description": "UPF50+专业防晒标准，有效阻挡紫外线伤害，保护肌肤健康",
+      "link": "img/products/dilun/4.jpg"
+    }
+  ],
+  "nilong": [
+    {
+      "title": "高强耐磨",
+      "description": "高强度尼龙科技布，耐磨性能优异，适合户外装备及高强度使用场景",
+      "link": "img/products/nilong/1.jpg"
+    },
+    {
+      "title": "轻便防水",
+      "description": "超轻量化设计，防水性能卓越，便于携带，是旅行装备的理想选择",
+      "link": "img/products/nilong/2.jpg"
+    },
+    {
+      "title": "弹性舒适",
+      "description": "添加弹性纤维，活动自如不束缚，兼顾运动功能与日常舒适穿着感",
+      "link": "img/products/nilong/3.jpg"
+    },
+    {
+      "title": "现代质感",
+      "description": "表面特殊处理，呈现现代质感光泽，兼具科技感与时尚外观设计",
+      "link": "img/products/nilong/4.jpg"
+    }
+  ],
+  "nvzhuang": [
+    {
+      "title": "柔美花卉",
+      "description": "精致花卉图案，色彩柔和浪漫，展现女性柔美气质，适合春夏时装设计",
+      "link": "img/products/nvzhuang/1.jpg"
+    },
+    {
+      "title": "优雅蕾丝",
+      "description": "精美蕾丝工艺，细腻镂空效果，增添奢华质感，适用于礼服和高端女装",
+      "link": "img/products/nvzhuang/2.jpg"
+    },
+    {
+      "title": "柔软针织",
+      "description": "优质针织面料，弹性良好贴身舒适，适合秋冬季节的温暖时尚穿搭",
+      "link": "img/products/nvzhuang/3.jpg"
+    },
+    {
+      "title": "飘逸雪纺",
+      "description": "轻薄飘逸质感，垂坠感优异，打造优雅灵动女式衬衫和裙装首选面料",
+      "link": "img/products/nvzhuang/4.jpg"
+    }
+  ],
+  "zhiye": [
+    {
+      "title": "挺括西装",
+      "description": "精纺羊毛混纺，版型挺括有型，保持线条流畅，彰显专业商务形象",
+      "link": "img/products/zhiye/1.jpg"
+    },
+    {
+      "title": "抗皱舒适",
+      "description": "记忆纤维技术，抗皱免烫，整天保持整洁外观，提升职场穿着体验",
+      "link": "img/products/zhiye/2.jpg"
+    },
+    {
+      "title": "经典条纹",
+      "description": "经典条纹设计，色彩搭配专业稳重，适合商务衬衫和职业装制作",
+      "link": "img/products/zhiye/3.jpg"
+    },
+    {
+      "title": "质感格纹",
+      "description": "精致格纹图案，纹理清晰有层次，展现专业而不失时尚的职业魅力",
+      "link": "img/products/zhiye/4.jpg"
+    }
+  ],
+  "chuanglian": [
+    {
+      "title": "奢华绒面",
+      "description": "高档绒面材质，厚重垂坠，遮光效果极佳，营造奢华私密的居家环境",
+      "link": "img/products/chuanglian/1.jpg"
+    },
+    {
+      "title": "轻盈纱质",
+      "description": "透明纱质面料，轻盈飘逸，透光柔和不刺眼，打造浪漫温馨的空间氛围",
+      "link": "img/products/chuanglian/2.jpg"
     },
     {
       "title": "现代简约",
-      "description": "优格系列",
-      "link": "img/products/chanqin2.jpg"
+      "description": "北欧极简风格，纯色设计干净利落，适合现代家居空间的装饰需求",
+      "link": "img/products/chuanglian/3.jpg"
     },
     {
-      "title": "现代简约",
-      "description": "优格系列-A",
-      "link": "img/products/chanqin2.jpg"
+      "title": "传统花纹",
+      "description": "经典传统图案，精美细腻工艺，重现古典美学，提升空间艺术价值",
+      "link": "img/products/chuanglian/4.jpg"
+    }
+  ],
+  "shafa": [
+    {
+      "title": "耐磨科技布",
+      "description": "高科技功能性面料，耐磨耐刮易清洁，适合家庭日常使用和高频场景",
+      "link": "img/products/shafa/1.jpg"
     },
     {
-      "title": "现代简约",
-      "description": "温情系列",
-      "link": "img/products/chanqin2.jpg"
+      "title": "柔软绒布",
+      "description": "优质绒布材质，触感柔软温暖，提供极致坐感体验，适合休闲家居",
+      "link": "img/products/shafa/2.jpg"
     },
     {
-      "title": "A1201",
-      "description": "美式风",
-      "link": "img/products/chanqin2.jpg"
+      "title": "防水防污",
+      "description": "纳米防护技术，防水防污易打理，保护沙发清洁，特别适合有孩家庭",
+      "link": "img/products/shafa/3.jpg"
     },
     {
-      "title": "A1201Q",
-      "description": "韩式田园",
-      "link": "img/products/chanqin2.jpg"
+      "title": "高档皮革感",
+      "description": "仿皮革质感设计，外观高档奢华，兼具皮革的美观和布艺的实用性能",
+      "link": "img/products/shafa/4.jpg"
+    }
+  ],
+  "huanbao": [
+    {
+      "title": "有机棉系列",
+      "description": "通过有机认证的棉花种植，无化学农药残留，环保健康，回归自然本质",
+      "link": "img/products/huanbao/1.jpg"
     },
     {
-      "title": "A1500SQ",
-      "description": "2017新实用风格卧房",
-      "link": "img/products/chanqin2.jpg"
+      "title": "再生聚酯纤维",
+      "description": "采用回收塑料瓶再生制成，减少环境污染，实现资源循环利用的环保理念",
+      "link": "img/products/huanbao/2.jpg"
     },
     {
-      "title": "中式风",
-      "description": "中国韵系列衣柜",
-      "link": "img/products/chanqin2.jpg"
+      "title": "植物染色",
+      "description": "天然植物提取染料，无化学添加，色彩自然柔和，减少水体污染",
+      "link": "img/products/huanbao/3.jpg"
     },
     {
-      "title": "简约主义",
-      "description": "书房",
-      "link": "img/products/chanqin2.jpg"
+      "title": "可生物降解",
+      "description": "创新生物基材料，使用后可自然降解，减少白色污染，践行环保责任",
+      "link": "img/products/huanbao/4.jpg"
+    }
+  ],
+  "gongneng": [
+    {
+      "title": "防火阻燃",
+      "description": "经过特殊阻燃处理，遇火自熄不蔓延，提高安全性，适用于公共场所",
+      "link": "img/products/gongneng/1.jpg"
     },
     {
-      "title": "中式风",
-      "description": "中国韵系列卧室",
-      "link": "img/products/chanqin2.jpg"
+      "title": "抗菌防臭",
+      "description": "内置银离子抗菌技术，有效抑制细菌滋生，保持织物清新，呵护健康",
+      "link": "img/products/gongneng/2.jpg"
     },
     {
-      "title": "2017现代简约",
-      "description": "榻榻米",
-      "link": "img/products/chanqin2.jpg"
+      "title": "温度调节",
+      "description": "智能温控纤维，根据环境温度自动调节，保持体感舒适，科技感十足",
+      "link": "img/products/gongneng/3.jpg"
     },
     {
-      "title": "苏格兰田园",
-      "description": "榻榻米",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "AZ1007",
-      "description": "整体房",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "AZ10025s",
-      "description": "整体房",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "APGM6L349AP",
-      "description": "简欧浴室柜",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "APGM6L348AP",
-      "description": "简欧浴室柜",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "APGM6L391AP",
-      "description": "简欧浴室柜",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "AM7702",
-      "description": "地拖盆",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "AM7703",
-      "description": "地拖盆",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "AM7704",
-      "description": "地拖盆",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "AB1271",
-      "description": "连体坐便器",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "AB1272",
-      "description": "连体坐便器",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "AB1273",
-      "description": "波艾系列.儿童房",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "A1178C",
-      "description": "现代简约 风尚系列 衣帽间",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "A1566TC",
-      "description": "现代简约 风尚系列 玄关柜",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "A81106C",
-      "description": "现代简约 风尚系列 玄关柜",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "A81119J",
-      "description": "苏格兰田园 阳台柜",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "A91145Q",
-      "description": "现代简约 风尚系列 阳台柜",
-      "link": "img/products/chanqin2.jpg"
-    },
-    {
-      "title": "A91145TN",
-      "description": "苏格兰田园 阳台柜",
-      "link": "img/products/chanqin2.jpg"
+      "title": "高强度防撕裂",
+      "description": "超高强度纤维编织，抗撕裂性能卓越，适用于工业防护和特殊工作服",
+      "link": "img/products/gongneng/4.jpg"
     }
   ]
 }
